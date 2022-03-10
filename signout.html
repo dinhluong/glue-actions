@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>ログアウト</title>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    <main>
+      <div class="container">
+          <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <span class="navbar-brand">You have been signed out</span>
+                <a class="btn navbar-btn btn-primary navbar-right pull-right" role="button" onclick="move()">ログインに戻る</a>
+            </div>
+            </nav> 
+      </div>
+    </main>
+    
+  </body>
+  <script>
+  function move(){
+    window.location.replace("login.html");
+  }
+  </script>
+</html>
